@@ -2,9 +2,116 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Isaac Guerrero Website</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="../css/main.css" rel="stylesheet">
 </head>
 <body>
+<div class="container-fluid">
+    <div class="row">
+        <nav class="navbar navbar-expand-md
+                    justify-content-start
+                    bg-dark navbar-dark
+                    col-12">
+            <!-- Brand -->
+            <a class="navbar-brand" href="../index.html">Home</a>
+            <!-- Responsive Button for the smaller menu -->
+            <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <!-- Links -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="../aboutme.html">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../education.html">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../contact.html">Contact</a>
+                    </li>
+
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                           data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Projects
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="banksim.html">Bank Simulation Web Application</a>
+                            <a class="dropdown-item" href="mealplan.html">Meal Planner Web Application</a>
+                            <a class="dropdown-item" href="chatroom.html">Chatroom</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- Project Section -->
+    <div class="row mt-4">
+        <div class="col-md-6">
+            <!-- Project Photo -->
+            <img src="path/to/your/project/photo.jpg" alt="Project Photo" class="img-fluid">
+        </div>
+
+        <div class="col-md-6">
+            <!-- Project Description -->
+            <h2>Meal Planner Web Application</h2>
+            <ul>
+                <!-- Project Summary -->
+                <li><strong>Project Summary:</strong>
+                    <ul style="list-style-type: circle;">
+                        <li>Developed a web application that simulates a meal planner, allowing users to find recipes, create weekly meal plans, and interact
+                            with a community of food enthusiasts
+                        </li>
+                    </ul>
+                </li>
+                <!-- Technologies Used -->
+                <li><strong>Technologies Used:</strong>
+                    <ul style="list-style-type: circle;">
+                        <li>HTML, CSS, JavaScript, PHP, MySQL, Tasty API integration</li>
+                        <!-- Add more technologies as needed -->
+                    </ul>
+                </li>
+                <!-- General Description -->
+                <li><strong>What I accomplished:</strong>
+                    <ul style="list-style-type: circle;">
+                        <li>Developed a role-based system, allowing Admins to manage system data through the web UI</li>
+                        <li>Designed an intuitive recipe search and pinning system</li>
+                        <li>Enabled users to create custom recipes with ingredients, steps, and images</li>
+                        <li>Implemented user profiles with public and private views</li>
+                        <li>Developed a weekly meal planner with extra recipe suggestions</li>
+                        <li>Fetched and cached recipe data from an external API</li>
+                        <li>Implemented a user review and rating system for recipes</li>
+                        <li>Featured trending recipes and verified users' meal plans on the main page</li>
+
+                    </ul>
+                </li>
+            </ul>
+            <!-- GitHub Link -->
+            <a href= "https://github.com/MattToegel/IT490-Tech-Titans-M23" class="btn btn-primary">GitHub Repository</a>
+        </div>
+    </div>
+    <footer class="footer page-footer font-small ">
+        <div class="container">
+            <div class="row">
+                <span class="text-muted">&copy; Isaac Guerrero, 2023 |  Terms Of Use  |  Privacy Statement</span>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<!-- Javascript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
 
 </body>
 </html>
