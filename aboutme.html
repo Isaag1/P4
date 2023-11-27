@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Isaac Guerrero Website</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <nav class="navbar navbar-expand-md justify-content-start bg-dark navbar-dark col-12">
+            <!-- Brand -->
+            <a class="navbar-brand" href="index.html">Logo</a>
+            <!-- Responsive Button for the smaller menu -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <!-- Links -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutme.html">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="education.html">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                           data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Projects
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="Projects/banksim.html">Bank Simulation Web Application</a>
+                            <a class="dropdown-item" href="Projects/chatroom.html">Meal Planner Web Application</a>
+                            <a class="dropdown-item" href="Projects/mealplan.html">Chatroom</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-md-4">
+            <!-- Add your image source in the 'src' attribute -->
+            <img src="images/isaac.png" alt="Isaac Guerrero photo" class="img-fluid">
+        </div>
+        <div class="col-md-8">
+            <div class="about-me-text">
+                <!-- Add your about me content here -->
+                <h2>About Me</h2>
+                <p>My name is Isaac Guerrero, and I am a senior IT major at NJIT.I attended Passaic High School and then
+                    pursued my education at Bergen Community College for two years. After completing my two years there,
+                    I transferred to NJIT. During my time at NJIT, I've had the opportunity to meet many individuals who
+                    share similar interests and hobbies. I've taken several classes that I find particularly interesting,
+                    including IS331, IT202, and IT490. Additionally, I am proud to be a part of the e-board of ACM, the
+                    largest computing club at NJIT. Through my involvement, I've forged valuable connections, made numerous
+                    friends, and had the chance to organize events such as the school's annual Hackathon and JCTF.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer page-footer font-small ">
+        <div class="container">
+            <div class="row">
+                <span class="text-muted">&copy; Isaac Guerrero, 2023 | Terms Of Use | Privacy Statement</span>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<!-- Javascript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
+
+</body>
+</html>
