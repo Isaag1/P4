@@ -1,3 +1,6 @@
+/*DEVELOPER: Isaac Guerrero, IS117-003, Semester, 2023 */
+
+
 .footer {
     position: fixed;
     left: 0;
@@ -13,26 +16,23 @@
     flex: 0 0 400px; /* Set a fixed width for the columns */
 }
 
-/* Center the columns horizontally */
 .row {
-    justify-content: center;
+    justify-content: center; /* Center the columns horizontally */
+
 }
-/* main.css */
 
 .card-custom {
     border: 2px solid #343a40; /* Border color and thickness */
     border-radius: 10px; /* Border radius for rounded corners */
-    margin-bottom: 20px; /* Margin to separate cards */
+    margin-bottom: 80px; /* Margin to separate cards */
 }
-/* Add this CSS to set a smaller width for the About Me section */
 .about-me-text {
-    max-width: 600px; /* Adjust the value as needed */
-    margin: 0 auto;   /* Center the content */
+    max-width: 600px; /* Adjust values as needed */
+    margin: 0 auto;   /* Centers content */
     margin-left: 80px;
 }
 
-/* Optional: Adjust the image width for better alignment */
 .img-fluid {
-    max-width: 100%;   /* Make sure the image does not exceed its container */
+    max-width: 100%;
     height: auto;      /* Maintain aspect ratio */
 }
